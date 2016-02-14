@@ -1,0 +1,16 @@
+PR checklist
+- [ ] Self code review -- take another pass through the changes yourself
+- [ ] All Selenium tests pass
+- [ ] All tests pass with Cassandrda as the store
+- [ ] Completed all relevant todos or call them out in the PR comments and on Slack
+- [ ] All public controller actions are wrapped in `PublicAction`
+- [ ] All controller actions that need authentication are wrapped in `SecuredAction`
+- [ ] Every value displayed on the screen is internationalized
+- [ ] New translations are on the same line number in `messages.en` and `messages.<other language>`
+- [ ] Play template is divided into components to avoid duplicate element in template
+- [ ] No unnecessary dependency, imports
+- [ ] Code coverage is above 90%
+- [ ] Scalastyle warnings are zero
+- [ ] Self QA in Chrome
+- [ ] Self QA in Firefox
+- [ ] Self QA in Safari
